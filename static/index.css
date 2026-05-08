@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url("https://thumbs.dreamstime.com/z/pile-coin-money-account-book-finance-banking-concept-background-concept-grow-walk-step-step-pile-coin-money-99951827.jpg");
+    background-size:cover;
+    background-position:center;
+    margin:0;
+    font-family:calibri;
+}
+
+/* HEADER */
+.header
+{
+    text-align:center;
+    color:#c7b6b5;
+    background-color:#3d3a3a;
+    padding:15px;
+    text-shadow:3px 2px #000;
+}
+
+/* BACK BUTTON */
+.back-page
+{
+    margin:20px;
+}
+
+.button
+{
+    border-radius:20px;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+    background:white;
+    box-shadow:3px 2px #000;
+    cursor:pointer;
+}
+
+/* CENTER FORM */
+.my-form
+{
+    width:620px;
+    margin:40px auto;
+    background:rgba(255,255,255,0.95);
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0px 0px 15px black;
+}
+
+/* FORM LAYOUT (VERTICAL) */
+.my-form form
+{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.my-form label,
+.my-form input,
+.my-form select,
+.my-form button
+{
+    display: block !important;
+    width: 100% !important;
+}
+
+/* LABEL */
+.my-form label
+{
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* INPUTS BIG + ROUNDED */
+.my-form input,
+.my-form select
+{
+    width:100%;
+    height:50px;
+    border-radius:25px;
+    border:1px solid black;
+    padding-left:15px;
+    font-size:18px;
+}
+
+/* BUTTONS */
+.my-form button
+{
+    width:100%;
+    height:50px;
+    margin-top:10px;
+    border-radius:25px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.my-form button[type="submit"]
+{
+    background:#3d3a3a;
+    color:white;
+}
+
+.my-form button[type="reset"]
+{
+    background:white;
+}
+
+/* FOOTER */
+.foot
+{
+    text-align:center;
+    background:#3d3a3a;
+    color:#c7b6b5;
+    padding:10px;
+    margin-top:30px;
+}

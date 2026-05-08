@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="{{ request.url_for('static', path='contact.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="title">
+            <header>
+                <h1>CONTACT DETAILS</h1>
+            </header>
+        </div>
+
+        <br>
+
+        <div class="back-page">
+            <a href="{{ request.url_for('home') }}">
+               <button class="button">⬅ To Home Page</button>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="intro">
+            <p>
+                Hello I am Manthan Takalkar. I have completed my B.E from SPPU Pune.
+                I am the developer of this project here are my contact details.
+                Feel free to contact!! 😇
+            </p>
+        </div>
+
+        <div class="link">
+
+            <div class="github">
+                <a href="https://github.com/ManthanTakalkar" target="_blank">Github</a>
+            </div>
+
+            <br>
+
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/manthan-takalkar-62969a213/" target="_blank">LinkedIn</a>
+            </div>
+
+            <br>
+            <div class="gmail">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=takalkarmanthan06@gmail.com&su=Hello%20Manthan&body=Hi%20Manthan"target="_blank">
+                    Gmail
+                </a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="foot">
+        <footer>Copyright © 2026 by Manthan Takalkar</footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="{{ request.url_for('static', path='home.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <header>
+                <h1>ADULT CENSUS INCOME PREDICTION</h1><hr>
+            </header>
+        </div>
+
+        <div class="links">
+            <div class="info">
+                <a href="{{ request.url_for('info') }}">Info</a>
+            </div>
+
+            <div class="about">
+                <a href="{{ request.url_for('developer') }}">Developer</a>
+            </div>
+
+            <div class="Contact">
+                <a href="{{ request.url_for('contact') }}">Contact</a>
+            </div>
+        </div>
+
+        <div class="quote">
+            <p>Financial independence is all about having more choices</p>
+            <p>- Robert Kiyosaki</p>
+        </div>
+
+        <div class="box">
+            <button class="button"
+                onclick="location.href='{{ request.url_for('index_page') }}'">
+                Predictor
+            </button>
+        </div>
+
+    </div>
+
+    <div class="foot">
+        <footer>Copyright © 2026 by Manthan Takalkar</footer>
+    </div>
+    
+</body>
+</html>

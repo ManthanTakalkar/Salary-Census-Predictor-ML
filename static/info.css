@@ -1,0 +1,92 @@
+body
+{
+background-image:url("https://wallpaperboat.com/wp-content/uploads/2020/03/grey-texture-background-hd-21.jpg");
+min-height:100vh; /* ✅ full screen */
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+margin:0;
+
+/* ✅ IMPORTANT: layout fix */
+display:flex;
+flex-direction:column;
+}
+
+.title
+{
+color:#c7b6b5;
+font-family:calibri;
+font-size:25px;
+text-align:center;
+font-weight:bold;
+text-shadow:5px 3px #000000;
+background-color:#3d3a3a;
+position:relative;
+top:-35px;
+padding:10px;
+}
+
+.back-page
+{
+font-weight:bold;
+margin-left:3%;
+margin-top:10px;
+/* ❌ removed absolute → prevents overlap */
+}
+
+.button
+{
+border-radius:20px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+text-transform:uppercase;
+background-color:white;
+box-shadow:3.5px 2.5px #000;
+/* ❌ removed absolute */
+font-family:calibri;
+opacity:0.9;
+padding:8px 15px;
+cursor:pointer;
+}
+
+.button:hover
+{
+opacity:0.5;
+}
+
+.what-ans
+{
+font-family:calibri;
+font-size:20px;
+margin:20px;
+}
+
+.app-information
+{
+font-family:calibri;
+font-size:20px;
+margin:20px;
+}
+
+/* ✅ CONTENT AREA (prevents overlap) */
+.container
+{
+flex:1; /* pushes footer down */
+padding:20px;
+}
+
+/* ✅ FOOTER FIXED PROPERLY */
+.foot
+{
+background-color:#3d3a3a;
+color:#c7b6b5;
+font-size:25px;
+font-family:calibri;
+font-weight:bold;
+text-align:center;
+padding:10px;
+
+/* ✅ pushes footer to bottom */
+margin-top:auto;
+}

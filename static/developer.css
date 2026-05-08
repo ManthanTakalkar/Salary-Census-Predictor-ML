@@ -1,0 +1,108 @@
+/* RESET */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body
+{
+    background-image:url("https://media.istockphoto.com/id/629285904/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=2048x2048&w=is&k=20&c=aQqM4e4P1ncjl6O_uzzFXF18VZ9Baz_t7aBL92OSW-w=");
+    min-height:100vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:calibri;
+}
+
+/* TITLE */
+.title
+{
+    color:#c7b6b5;
+    font-size:25px;
+    text-align:center;
+    font-weight:bold;
+    text-shadow:5px 3px #000000;
+    background-color:#3d3a3a;
+    padding:15px;
+}
+
+/* BACK BUTTON */
+.back-page
+{
+    margin:20px;
+}
+
+.button
+{
+    border-radius:20px;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:uppercase;
+    background-color:white;
+    box-shadow:3.5px 2.5px #000;
+    font-family:calibri;
+    opacity:0.9;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+.button:hover
+{
+    opacity:0.5;
+}
+
+/* MAIN CONTENT CONTAINER */
+.container
+{
+    width:80%;
+    margin:30px auto;
+    background:rgba(255,255,255,0.9);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 15px black;
+}
+
+/* IMAGE */
+.img
+{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.img img
+{
+    width:250px;
+    height:250px;
+    object-fit:cover;   /* prevents distortion */
+    border-radius:50%;
+    border:3px solid #000;
+    box-shadow:4px 4px 10px #000;
+}
+
+/* INFO TEXT */
+.info
+{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    line-height:1.6;
+    padding:0 20px;
+}
+
+/* FOOTER */
+.foot
+{
+    background-color:#3d3a3a;
+    color:#c7b6b5;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding:10px;
+    margin-top:30px;
+    border-radius:10px;
+}

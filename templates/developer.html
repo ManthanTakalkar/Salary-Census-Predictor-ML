@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer</title>
+
+    <link rel="stylesheet" href="{{ request.url_for('static', path='developer.css') }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="title">
+            <header>
+                <h1>ABOUT DEVELOPER</h1>
+            </header>
+        </div>
+
+        <br>
+
+        <div class="back-page">
+            <a href="{{ request.url_for('home') }}">
+                <button class="button">⬅ To Home Page</button>
+            </a>
+        </div>
+
+        <br>
+
+        <div class="img">
+            <img src="{{ request.url_for('static', path='images/self.png') }}" alt="Developer">
+        </div>
+
+        <div class="info">
+            <p>
+                Hello I am Manthan Takalkar. I have completed my B.E from SPPU Pune.
+                Currently I am studying Machine Learning, Data Science, Data Analysis, etc.
+                I have done a Machine Learning internship in iNeuron.ai.
+                I am open to job and internship opportunities.
+                I enjoy outdoor sports, reading books, and learning new things.
+            </p>
+        </div>
+
+        <div class="foot">
+            <footer>Copyright © 2026 by Manthan Takalkar</footer>
+        </div>
+
+    </div>
+</body>
+</html>
