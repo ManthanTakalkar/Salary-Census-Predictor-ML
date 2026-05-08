@@ -19,7 +19,7 @@ Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can de
 
 ## 💨 APPLICATION LINK 📎 
 
-Salary Census Prediction - https://salaycensus1.herokuapp.com/
+Salary Census Prediction - https://salary-census-predictor-ml.onrender.com
 
 
 ## 💨 IMPORTANT PYTHON LIBRARIES 🧾
