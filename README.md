@@ -46,7 +46,7 @@ PostgreSQL
 
 ## 💨 CLOUD PLATFORM USED ☁ 
 
-Heroku Cloud Platform
+Render Cloud Platform
 
 
 ## 💨 APP INFO 📝 
@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/6648f148-74d6-425b-a086-0e991c8524a9
 
 ## 💨 CONTRIBUTOR/AUTHOR 👨‍💻
 
-**Manthan Kailas Takalkar.**
+**Manthan Kailas Takalkar**
 
 **Linkedin** - https://www.linkedin.com/in/manthan-takalkar-62969a213/
 
